@@ -1,5 +1,5 @@
 body{
-
+   
     margin: 0px;
     font-family: monospace; 
     background-color: black;
@@ -9,34 +9,57 @@ body{
 
 .header {
 
- background-color: black;
+ 
  width: 100%;
+ height: 100%px;
  border-bottom: 3px blue solid;
+ align-items: center;
  
 }
 
-h1 { 
+.titulo { 
     margin: 0;
     color: blue;
+   
 
  }
 
- .header .container{
-    width: 70%;
+ .container {
+
+    width: 80%;
+    margin: auto;
     display: flex;
+ }
+
+ .header .container{
+  
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
 
  }
 
  .navbar 
-    {  width: 500%;
+    {  width: 500px;
         list-style: none;
          align-items: center;
          justify-content: space-between;
          color: orange;
          display: flex;
+         padding: 0;
+         
+ 
+       }
+       p{ color: white;}
+
+       /* Começo do Banner */
+
+       .banner { 
+           height: 500px;
 
 
 
+       }
 
-
-    }
+       
+ 
